@@ -22,8 +22,4 @@ def add_task():
   tasks.append({'task': task_name, 'completed': False})
   print('your task has been added')
 
-def mark_complete():
-  view_tasks()
-  num = int(input('Enter your task: ')) - 1
-  tasks[num]['completed'] = True
-  print('Task Has Been Completed')
+
